@@ -1,0 +1,31 @@
+/* div{
+    height: 100px;
+    width:200px;
+    background-color: blue;
+
+}
+div:hover {
+    background-color: red;
+
+}
+div:active {
+    background-color: green;
+    height: 150px;
+    width: 300px;
+} */
+.container {
+    height: 100px;
+    width: 200px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.container:hover {
+transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
