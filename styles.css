@@ -30,3 +30,6 @@ transition: all 0.5s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: lightblue;
 }
+body {
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+}
