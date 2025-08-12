@@ -8,4 +8,5 @@ element.previousElementSibling.style.color = "blue";
 element.style.color="white";
 element.style.backgroundColor = "black";
 element.style.padding = "10px";
-element.parentElement
+element.parentElement.style.backgroundColor = "gray";
+alert("DOM manipulation complete");
